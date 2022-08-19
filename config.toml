@@ -35,7 +35,7 @@ sectionPagesMenu = "main"
   showLastUpdated = false
 
   # set a custom favicon (default is a `themeColor` square)
-  favicon = "favicon.ico"
+  #favicon = "favicon.ico"
 
   # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
   # updatedDatePrefix = "Updated"
@@ -60,16 +60,16 @@ sectionPagesMenu = "main"
   # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
   # do not include @
   creator = "sp614x"
-  site = ""
+  site = "https://lol.com"
 
 
 
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
-    subtitle = "A simple, retro theme for Hugo"
-    owner = ""
+    title = "SunkenPotato's Website"
+    subtitle = ""
+    owner = "SunkenPotato"
     keywords = ""
     copyright = ""
     menuMore = "Show more"
@@ -77,7 +77,7 @@ sectionPagesMenu = "main"
     readOtherPosts = "Read other posts"
     newerPosts = "Newer posts"
     olderPosts = "Older posts"
-    missingContentMessage = "Not the page you're looking for..."
+    #missingContentMessage = "This isn't what you're looking for..."
     missingBackButtonLabel = "Back to home page"
 
     [languages.en.params.logo]
@@ -91,10 +91,9 @@ sectionPagesMenu = "main"
         url = "https://discord.gg/aScEw8WCrn"
       [[languages.en.menu.main]]
         identifier = "gh"
-        name = "GitHub  "
-        url = "/showcase"
-        icon = "android-chrome-192x192.png"
+        name = "GitHub"
+        url = "https://github.com/SunkenPotato"
       [[languages.en.menu.main]]
-        identifier = "proj"
-        url = '/projects'
-        name = 'Projects'
+        identifier = "mods"
+        url = '/mods'
+        name = 'Mods'
