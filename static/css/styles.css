@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'SpaceMono-Regular';
+  src: url('/fonts/SpaceMono-Regular.ttf');
+}
 #head-main{
     font-size: 40px;
     font-family: 'SpaceMono-Regular';
