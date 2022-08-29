@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+@font-face {
+  font-family: 'SpaceMono-Regular';
+  src: url('/fonts/SpaceMono-Regular.ttf');
+}
+@font-face {
+  font-family: 'DankMono-Regular';
+  src: url('/fonts/Dank\ Mono\ Regular.ttf');
+}
+.text{
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
+}
+#head-main{
+    font-size: 40px;
+    font-family: 'Fira Code' monospace;
+    color: darkcyan;
+}
+#subtitle-main{
+    font-size: 20px;
+    font-family: 'SpaceMono-Regular';
+    src: url('/fonts/SpaceMono-Regular.ttf') format('ttf');
+    color: yellowgreen;
+}
+;;
+   
+   .main{
+   
+    margin: 2%;
+   }
+   
+   
+   .card{
+        width: 45%;
+        height: 15%;
+        display: inline-block;
+        box-shadow: 2px 2px 20px black;
+        border-radius: 2px; 
+        margin: 1%;
+       }
+   
+   .image img{
+     width: 100%;
+     border-top-right-radius: 5px;
+     border-top-left-radius: 5px;
+     
+   
+    
+    }
+   
+   .title{
+    
+     text-align: center;
+     padding: 10px;
+     font-family: 'DankMono-Regular';
+     font-size: 300%;
+     color:yellowgreen;
+    }
+   
+   /*.Head{
+     font-size: 50px;
+    }*/
+   
+   .des{
+     padding: 3px;
+     text-align: center;
+    
+     padding-top: 10px;
+     border-bottom-right-radius: 5px;
+     border-bottom-left-radius: 5px;
+    }
+  p{
+    color: aquamarine
+  }
+   .foot{
+    padding: 3px;
+    text-align: center;
+    padding-top: 1px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: smaller;
+   }
+   button{
+     margin-top: 40px;
+     margin-bottom: 10px;
+     background-color: white;
+     border: 1px solid black;
+     border-radius: 5px;
+     padding:10px;
+     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
+
+   }
+   button:hover{
+     background-color: black;
+     color: white;
+     transition: .5s;
+     cursor: pointer;
+   }
+   button:hover::after{
+    background-color: white;
+    color: black;
+    transition: .5s;
+    cursor: pointer;
+   }
+   img{
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+   }

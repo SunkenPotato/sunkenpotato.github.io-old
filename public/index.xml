@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SunkenPotato&#39;s Website</title>
+    <link>/</link>
+    <description>Recent content on SunkenPotato&#39;s Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>/enhanced/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/enhanced/</guid>
+      <description>&lt;!DOCTYPE html&gt; enhAnced &gt; [About enhAnced]
+This mod is currently indev and isn&#39;t available to the public yet. It will try to be vanilla-oriented and add quite a bit of content The mod is being developed by @darkPotato#3242 in assistance by @impossible_EN#6938 aswell as @Baron von Games#4605 Enhanced is open source! Go check it out on GitHub! &gt; [wiki] &gt; [downloads] </description>
+      <content>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;script async src=&#34;https://api.countapi.xyz/hit/sunkenpotato.github.io/14d8332c-8828-4216-8a7c-2298d14de5f6?callback=websiteVisits&#34;&gt;&lt;/script&gt;
+        &lt;script async src=&#34;/js/count.js&#34;&gt;&lt;/script&gt;
+        &lt;link rel=&#34;stylesheet&#34; href=&#34;enhanced.css&#34;&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;center&gt;
+            &lt;div id=&#34;bg_title&#34; style=&#34;background-color: rgb(27, 42, 42);&#34;&gt;
+                &lt;a href=&#34;/enhanced&#34; id=&#34;title&#34; class=&#34;unselectable&#34;&gt;enhAnced&lt;/a&gt;
+            &lt;/div&gt;
+            
+        &lt;/center&gt;
+        
+            &lt;section class=&#34;boxone&#34;&gt;
+                &lt;h2 onselectstart=&#34;return false&#34; style=&#34;font-size: 35px&#34;&gt;&lt;span class=&#34;white&#34;&gt;&gt;   [&lt;/span&gt;About enhAnced&lt;span class=&#34;white&#34;&gt;]&lt;/span&gt;&lt;/h2&gt;&lt;br&gt;
+                &lt;div class=&#34;text&#34;&gt;
+                    This mod is currently indev and isn&#39;t available to the public yet. It will try to be vanilla-oriented and add quite a bit of content
+                    &lt;br&gt;&lt;br&gt;
+                    The mod is being developed by &lt;code&gt;@darkPotato#3242&lt;/code&gt; in assistance by &lt;code&gt;@impossible_EN#6938&lt;/code&gt;
+                    aswell as &lt;code&gt;@Baron von Games#4605&lt;/code&gt;
+                    &lt;br&gt;
+                    &lt;br&gt;
+                    Enhanced is &lt;a href=&#34;https://github.com/SunkenPotato/Enhanced&#34;&gt;&lt;span style=&#34;color:aqua&#34;&gt;open source!&lt;/span&gt;&lt;/a&gt; Go check it out on GitHub! 
+                &lt;/div&gt;
+            &lt;/section&gt;
+            &lt;nav&gt;
+                &lt;a href=&#34;https://github.com/SunkenPotato/Enhanced/wiki&#34; class=&#34;navlink boxes&#34;&gt;&lt;span class=&#34;white&#34;&gt;&gt; [&lt;/span&gt;wiki&lt;span class=&#34;white&#34;&gt;]&lt;/span&gt;&lt;/a&gt;
+                &lt;a href=&#34;/enhanced/downloads&#34; class=&#34;navlink boxes&#34;&gt;&lt;span class=&#34;white&#34;&gt;&gt; [&lt;/span&gt;downloads&lt;span class=&#34;white&#34;&gt;]&lt;/span&gt;&lt;/a&gt;
+            &lt;/nav&gt; 
+    &lt;/body&gt;
+&lt;/html&gt;</content>
+    </item>
+    
+  </channel>
+</rss>

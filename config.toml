@@ -81,7 +81,7 @@ sectionPagesMenu = "main"
     missingBackButtonLabel = "Back to home page"
 
     [languages.en.params.logo]
-      logoText = "SunkenPotato"
+      logoText = "darkPotato"
       logoHomeLink = "/"
 
     [languages.en.menu]

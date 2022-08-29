@@ -1,11 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
 @font-face {
   font-family: 'SpaceMono-Regular';
   src: url('/fonts/SpaceMono-Regular.ttf');
 }
+@font-face {
+  font-family: 'DankMono-Regular';
+  src: url('/fonts/Dank\ Mono\ Regular.ttf');
+}
+.text{
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
+}
 #head-main{
     font-size: 40px;
-    font-family: 'SpaceMono-Regular';
-    src: url('/fonts/SpaceMono-Regular.ttf') format('ttf');
+    font-family: 'Fira Code' monospace;
     color: darkcyan;
 }
 #subtitle-main{
@@ -21,13 +29,14 @@
     margin: 2%;
    }
    
+   
    .card{
-        width: 30%;
+        width: 45%;
         height: 15%;
         display: inline-block;
         box-shadow: 2px 2px 20px black;
-        border-radius: 5px; 
-        margin: 2%;
+        border-radius: 2px; 
+        margin: 1%;
        }
    
    .image img{
@@ -43,21 +52,26 @@
     
      text-align: center;
      padding: 10px;
-     
+     font-family: 'DankMono-Regular';
+     font-size: 300%;
+     color:yellowgreen;
     }
    
-   .Head{
-     font-size: 20px;
-    }
+   /*.Head{
+     font-size: 50px;
+    }*/
    
    .des{
      padding: 3px;
      text-align: center;
     
      padding-top: 10px;
-           border-bottom-right-radius: 5px;
+     border-bottom-right-radius: 5px;
      border-bottom-left-radius: 5px;
-   }
+    }
+  p{
+    color: aquamarine
+  }
    .foot{
     padding: 3px;
     text-align: center;
@@ -73,6 +87,8 @@
      border: 1px solid black;
      border-radius: 5px;
      padding:10px;
+     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
+
    }
    button:hover{
      background-color: black;
@@ -86,4 +102,10 @@
     transition: .5s;
     cursor: pointer;
    }
-   
+   img{
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+   }
