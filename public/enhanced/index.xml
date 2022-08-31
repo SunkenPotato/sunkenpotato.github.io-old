@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SunkenPotato&#39;s Website</title>
-    <link>/</link>
+    <link>/enhanced/</link>
     <description>Recent content on SunkenPotato&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="/enhanced/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

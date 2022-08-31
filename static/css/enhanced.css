@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'Major\ Mono\ Display';
+    src: url('/fonts/MajorMonoDisplay-Regular.ttf');
+}
+@font-face {
+    font-family: 'Dank Mono';
+    src: url('/fonts/Dank Mono Regular.otf');
+}
+
+body{
+    background-color: rgb(6, 14, 23);
+
+}
+#title{
+    font-family: 'Major Mono Display', monospace;
+    font-size: 225%;
+    color:darkcyan;
+    background-color: inherit;
+    position: relative;
+    text-decoration: none;
+    max-width: fit-content;
+  }
+  
+  #title:hover {
+    color: darkcyan;
+  }
+  
+  #title::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: darkcyan;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  
+  
+  #title:hover::before {
+    transform: scaleX(1);
+  }
+h2{
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    font-family: 'Major Mono Display', monospace;
+    color:darkcyan;
+    font-size: 500;
+}
+.h2{
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    font-family: 'Major Mono Display', monospace;
+    color:darkcyan;
+    font-size: 500;
+}
+
+.boxone{
+    display: flex block;
+    justify-content: center;
+    margin: 25px 0;
+    padding: 30px 20px;
+    background-color: rgb(23, 22, 22);
+    height: fit-content;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.boxone:hover{
+    background-color: rgb(23, 36, 36);
+    transition: .5s;
+}
+.boxone:hover::after{
+    background-color: rgb(23, 22, 22);
+    transition: .5s;
+}
+.boxes{
+    display: flex block;
+    /*justify-content: center;*/
+    margin: 25px 40;
+    padding: 0.1px 15px;
+
+    background-color: rgb(23, 22, 22);
+    width: 1000px;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.boxes:hover{
+    background-color: rgb(23, 36, 36);
+    transition: .5s;
+}
+.boxes:hover::after{
+    background-color: rgb(23, 22, 22);
+    transition: .5s;
+}
+.text{
+    font-family: 'Dank Mono', monospace;
+    font-size: 125%;
+    color:darkcyan;
+    background-color: inherit;
+    position: relative;
+    color: darkcyan;
+    text-decoration: none;
+}
+
+.navlink{
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    font-family: 'Major Mono Display', monospace;
+    color:darkcyan;
+    font-size: 500;
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    height: 95px;
+    /*justify-content: space-between;*/
+    margin: 10px 0;
+    padding: 0 15px;
+    font-size: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;;
+
+}
+.white{
+    color: whitesmoke;
+}
+.button{
+    border-radius: 0.75em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: cadetblue;
+    transition: .5s;
+    border-color: inherit;
+}
+.button:hover{
+    background-color: darkcyan;
+}
+.btt{
+    color: white;
+    background-color: inherit;
+}
+img{
+    width: 10%;
+    height: 10%;
+    object-fit: contain;
+    display: block;
+
+}
+.ver{
+    font-family: 'Dank Mono', monospace;
+    color: black;
+}
+.wrapper{
+    margin-left: 5% 
+}

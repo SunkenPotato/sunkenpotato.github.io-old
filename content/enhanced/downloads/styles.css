@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Major Mono Display';
+  src: url('/fonts/MajorMonoDisplay-Regular.ttf');
+}
+@font-face {
+  font-family: 'Dank Mono';
+  src: url('/fonts/Dank Mono Regular.otf');
+}
+body{
+    font-family: 'Dank Mono', monospace;
+}
+
+h2{
+  font-family: 'Major Mono Display', monospace !important;
+}
+
+h3{
+  font-family: 'Dank Mono';
+  color: #007474
+}
+button:hover{
+  background-color: darkcyan;
+  transition: .5s;
+}
+button:hover:after{
+  background-color: #007474 !important;
+  transition: .5s !important;
+}
+button{
+  background-color: #007474;
+}
