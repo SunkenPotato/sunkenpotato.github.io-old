@@ -65,18 +65,26 @@ h2{
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
+
 }
 .boxone:hover{
     background-color: rgb(23, 36, 36);
     transition: .5s;
 }
-.boxone:hover::after{
+.boxone:not(:hover){
+    background-color: rgb(23, 22, 22);
+    transition: .5s;
+}
+section:hover{
+    background-color: rgb(23, 36, 36);
+    transition: .5s;
+}
+section:not(:hover){
     background-color: rgb(23, 22, 22);
     transition: .5s;
 }
 .boxes{
     display: flex block;
-    /*justify-content: center;*/
     margin: 25px 40;
     padding: 0.1px 15px;
 

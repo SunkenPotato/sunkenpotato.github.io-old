@@ -1,0 +1,65 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+</head>
+<style>
+    @font-face {
+    font-family: 'Major\ Mono\ Display';
+    src: url('/fonts/MajorMonoDisplay-Regular.ttf');
+    }
+    @font-face {
+    font-family: 'SpaceMono-Regular';
+    src: url('/fonts/SpaceMono-Regular.ttf');
+    }
+    @font-face {
+    font-family: 'DankMono-Regular';
+    src: url('/fonts/Dank Mono Regular.otf') format('otf');
+    }
+    .dm{
+        font-family: "Dank Mono";
+    }
+    .sm{
+        font-family: "Space Mono";
+    }
+    .mmd{
+        font-family: "Major Mono Display";
+    }
+    mark{
+        color: lawngreen;
+    }
+</style>
+<body>
+    <h1>Fonts Used: </h1>
+    <ul>
+        <li>Dank Mono: <span class="dm"></span> Used in: <code>/enhanced, /enhanced/downloads/, /</code> By: Phil Pluckthun</li>
+        <li>Fira Code: <span class="fc"></span> Used in: <code>Every page</code> By: Niki Tonsky</li>
+        <li>Space Mono: <span class="sm"></span> Used in: <code>/</code> By: Colophon Foundry</li>
+        <li>Major Mono Display: <span class="mmd"></span> Used in: <code>/enhanced, /enhanced/downloads/</code> By: Emre Parlak</li>
+    </ul>
+    <h1>APIs Used: </h1>
+    <ul>
+        <li>JQuery | Created by John Resig</li>
+        <li><code>api.countapi.xyz </code> | N/A </li>
+        <li>feather-icons | <a href="https://github.com/feather-icon">feather-icons Team</a></li>
+    </ul>
+    <h1>References:</h1>
+        <ul>
+            <li>Card icons on front page by icons8.com(cdn)</li>
+        </ul>
+    <h1>Further credits: </h1>
+        <ul>
+            <li>Website builder: hugo</li>
+            <li>Theme: Terminal by panr</li>
+            <li>Thanks to GitHub for GitHub Pages</li>
+        </ul>
+</body>
+<script>
+    $("span").html("<mark>The quick brown fox jumps over the lazy brown dog</mark>")
+</script>
+</html>

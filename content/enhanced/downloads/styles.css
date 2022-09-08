@@ -38,3 +38,8 @@ a{
   border-color: #007474;
   display: inline-block;
 }
+.f-ico{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

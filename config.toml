@@ -2,8 +2,6 @@ baseurl = "/"
 languageCode = "en-us"
 theme = "hugo-theme-terminal"
 paginate = 5
-sectionPagesMenu = "main"
-
 
 [params]
   # dir name of your main content (default is `content/posts`).
@@ -11,19 +9,19 @@ sectionPagesMenu = "main"
   contentTypeName = "posts"
 
   # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "blue"
+  themeColor = "red"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 4
+  showMenuItems = 3
 
   # show selector to switch language
-  showLanguageSelector = true
+  showLanguageSelector = false
 
   # set theme to full screen width
   fullWidthTheme = true
 
   # center theme with default width
-  centerTheme = true
+  centerTheme = false
 
   # if your resource directory contains an image called `cover.(jpg|png|webp)`,
   # then the file will be used as a cover automatically.
@@ -44,7 +42,7 @@ sectionPagesMenu = "main"
   # oneHeadingSize = true # default
 
   # whether to show a page's estimated reading time
-  # readingTime = false # default
+  # readingTime = true # default
 
   # whether to show a table of contents
   # can be overridden in a page's front-matter
@@ -59,17 +57,15 @@ sectionPagesMenu = "main"
   # set Twitter handles for Twitter cards
   # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
   # do not include @
-  creator = "sp614x"
-  site = "https://lol.com"
-
-
+  creator = ""
+  site = ""
 
 [languages]
   [languages.en]
     languageName = "English"
-    title = "SunkenPotato's Website"
-    subtitle = ""
-    owner = "SunkenPotato"
+    title = "SunkenPotato"
+    subtitle = "A simple, retro theme for Hugo"
+    owner = ""
     keywords = ""
     copyright = ""
     menuMore = "Show more"
@@ -77,23 +73,28 @@ sectionPagesMenu = "main"
     readOtherPosts = "Read other posts"
     newerPosts = "Newer posts"
     olderPosts = "Older posts"
-    #missingContentMessage = "This isn't what you're looking for..."
+    missingContentMessage = "Page not found..."
     missingBackButtonLabel = "Back to home page"
 
     [languages.en.params.logo]
-      logoText = "darkPotato"
+      logoText = "SunkenPotato"
       logoHomeLink = "/"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
-        identifier = "dis"
-        name = "Discord"
-        url = "https://discord.gg/aScEw8WCrn"
-      [[languages.en.menu.main]]
-        identifier = "gh"
+        identifier = "github"
         name = "GitHub"
-        url = "https://github.com/SunkenPotato"
+        url = "https://github.com/SunkenPotato/"
       [[languages.en.menu.main]]
-        identifier = "mods"
-        url = '/mods'
-        name = 'Mods'
+        identifier = "enhanced"
+        name = "Enhanced"
+        url = "/enhanced"
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "discord"
+        name = "Discord"
+        url = "https://discord.com/404"
+      
