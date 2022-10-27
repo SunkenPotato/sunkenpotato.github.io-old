@@ -39,10 +39,9 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
-
 .card{
   border-radius: 5px;
-  border: 1px solid lightseagreen;
+  border: 1px double lightseagreen;
   background-color: #007474;
   width:fit-content;
   box-shadow: 5px 5px 5px black;
@@ -67,7 +66,7 @@
 }
 
 .head-card{
-  font-family: 'Space Mono', monospace;
+  font-family: 'SpaceMono-Regular', monospace;
 }
 
 .re-link{
@@ -75,7 +74,9 @@
   text-decoration-color: yellowgreen;
 }
 a, a:hover, a:focus, a:active{
-    text-decoration: dashed;
+    text-decoration: none;
+    text-decoration-color:#038ABF;
+    text-decoration-thickness: 0.1em;
     color: chartreuse
 }
 .f-ico{
@@ -95,4 +96,7 @@ a, a:hover, a:focus, a:active{
 }
 .card-four{
   background-image: linear-gradient(135deg, #628ABF, #004);
+}
+i{
+  color: red !important;
 }
