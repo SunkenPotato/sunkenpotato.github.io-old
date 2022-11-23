@@ -64,6 +64,9 @@
   margin: 5px;
   border-radius: 5px;
 }
+#image-card-three{
+  background-color: #900047 !important;
+}
 
 .head-card{
   font-family: 'SpaceMono-Regular', monospace;
