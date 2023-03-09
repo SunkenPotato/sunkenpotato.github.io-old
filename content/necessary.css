@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dank+Mono&display=swap');
 
-/*
+
 @font-face {
   font-family: 'SpaceMono-Regular';
   src: url('/fonts/SpaceMono-Regular.ttf');
 }
-*/
+/*
 @font-face {
   font-family: 'Dank Mono';
   src: url('/fonts/Dank Mono Regular.otf') format('otf');
 }
-
+*/
 #title{
   display: flex;
   align-items: center;
